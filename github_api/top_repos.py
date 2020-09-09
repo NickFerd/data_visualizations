@@ -7,7 +7,7 @@ from datetime import date
 
 def main():
     """Visualization of top 30 repositories on Github
-            of each programming language in the list"""
+            of each programming language in the list ranked by number of stars"""
     langs = ['python', 'javascript', 'c++', 'java', 'golang']
     for language in langs:
         repos_info = make_api_call(language)
